@@ -1,0 +1,16 @@
+Q1 : Cron Job, PollSCM, GitHub Triggers, and Throttle Job are all different ways of triggering Jenkins jobs. Here's a brief explanation of each:
+
+Cron Job: A Cron Job is a time-based scheduler that allows you to schedule jobs to run at specific times or intervals. You can use the Cron syntax to specify the time and frequency of the job execution.
+
+PollSCM: PollSCM is a mechanism that allows Jenkins to periodically check your source code repository for changes. If any changes are detected, Jenkins will trigger the corresponding job. You can configure the polling frequency and other options to control when and how often the polling occurs.
+
+GitHub Triggers: GitHub Triggers is a mechanism that allows Jenkins to automatically trigger builds when changes are pushed to a GitHub repository. You can configure GitHub webhooks to notify Jenkins of the changes, and Jenkins will trigger the corresponding job.
+
+Throttle Job: Throttle Job is a plugin for Jenkins that allows you to limit the number of concurrent builds of a particular job. You can configure the maximum number of concurrent builds and the duration between builds to control the job's execution frequency.
+
+In summary, Cron Job and PollSCM are both time-based triggers that allow you to schedule and automate job executions. GitHub Triggers is a webhook-based trigger that allows you to trigger builds automatically when changes are pushed to a GitHub repository. Throttle Job is a plugin that allows you to control the frequency and concurrency of job executions. Each of these mechanisms can be useful in different scenarios, depending on your requirements and workflow.
+
+
+
+
+
